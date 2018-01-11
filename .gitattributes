@@ -2,7 +2,11 @@
 //
 
 #include "stdafx.h"
+#include <iostream>
 
+using namespace std;
+int* conv2(int* pInput, int* kernal, int row1, int col1, int row2, int col2);
+int* rot90(int* A, int row, int col);
 
 int main()
 {
